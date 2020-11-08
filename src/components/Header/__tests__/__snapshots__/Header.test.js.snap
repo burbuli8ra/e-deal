@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should match snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="css-3vq7ia"
+    data-testid="header"
+  >
+    <a
+      class="css-1rzlx2v"
+      data-testid="header-logo"
+      href="/"
+    >
+      <svg
+        class="css-xzn57i"
+        data-testid="header-icon"
+      >
+        logo.svg
+      </svg>
+      eDeal
+    </a>
+  </header>
+</DocumentFragment>
+`;
