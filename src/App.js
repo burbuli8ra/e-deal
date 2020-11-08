@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Header, Footer } from './components';
+import { Header, Footer, Loader } from './components';
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
         <Header />
       </Router>
       {/* @todo replace with actual component */}
-      <div>Main App Content</div>
+      <Loader />
       <Footer />
     </>
   );
