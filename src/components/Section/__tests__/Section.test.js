@@ -1,18 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
 import { render } from '@testing-library/react';
 import { AppProvider } from 'provider';
-import Header from '../Header';
+import Section from '../Section';
 
 const setup = props => (
   <AppProvider>
-    <Router>
-      <Header {...props} />
-    </Router>
+    <Section {...props}>
+      Section content
+    </Section>
   </AppProvider>
 );
 
-describe('Header component', () => {
+describe('Section component', () => {
   let props;
   let wrapper;
 

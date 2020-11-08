@@ -20,12 +20,17 @@ exports[`App Component should match snapshot 1`] = `
       eDeal
     </a>
   </header>
-  <div
-    class="css-1ysydv3"
-    data-testid="loader"
+  <main
+    class="css-7sbsyk"
+    data-testid="main"
   >
-    Loading...
-  </div>
+    <div
+      class="css-1ysydv3"
+      data-testid="loader"
+    >
+      Loading...
+    </div>
+  </main>
   <footer
     class="css-1ydo3a8"
     data-testid="footer"

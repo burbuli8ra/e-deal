@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section component should match snapshot 1`] = `
+<DocumentFragment>
+  <main
+    class="css-7sbsyk"
+    data-testid="main"
+  >
+    Section content
+  </main>
+</DocumentFragment>
+`;
