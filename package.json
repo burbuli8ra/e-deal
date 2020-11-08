@@ -17,7 +17,9 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
-    "@testing-library/user-event": "^12.2.0"
+    "@testing-library/user-event": "^12.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0"
   },
   "scripts": {
     "start": "PORT=4000 react-scripts start",
