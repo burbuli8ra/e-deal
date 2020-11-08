@@ -1,11 +1,16 @@
 import React, { createContext, useContext, useReducer } from 'react';
-import { componentHeightsReducer, isPageLoadingReducer } from './reducers';
+import {
+  componentHeightsReducer,
+  errorReducer,
+  isPageLoadingReducer
+} from './reducers';
 
 const appInitState = {
   componentHeights: {
     header: 0,
     footer: 0
   },
+  error: '',
   isPageLoading: true
 };
 
@@ -18,6 +23,7 @@ const AppContext = createContext(appInitState);
 const appReducer = (state, action) => ({
   ...state,
   componentHeights: componentHeightsReducer(state.componentHeights, action),
+  error: errorReducer(state.error, action),
   isPageLoading: isPageLoadingReducer(state.isPageLoading, action)
 });
 

@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoriesListView component should match snapshot 1`] = `
+<DocumentFragment>
+  <a
+    class="css-d8lqi0"
+    data-testid="categoryItem-block"
+    href="/categories/6989"
+  >
+    <img
+      alt="Τεχνολογία"
+      class="css-jd31iv"
+      src="https://abpcdn.pstatic.gr/P/bpimg128/6989_SX400Y400/1577836800/technology.webp"
+    />
+    Τεχνολογία
+  </a>
+  <a
+    class="css-d8lqi0"
+    data-testid="categoryItem-block"
+    href="/categories/2185"
+  >
+    <img
+      alt="Σπίτι & Κήπος"
+      class="css-jd31iv"
+      src="https://abpcdn.pstatic.gr/P/bpimg128/2185_SX400Y400/1577836800/home-garden.webp"
+    />
+    Σπίτι & Κήπος
+  </a>
+  <a
+    class="css-d8lqi0"
+    data-testid="categoryItem-block"
+    href="/categories/2068"
+  >
+    <img
+      alt="Μόδα"
+      class="css-jd31iv"
+      src="https://abpcdn.pstatic.gr/P/bpimg128/2068_SX400Y400/1577836800/fashion.webp"
+    />
+    Μόδα
+  </a>
+  <a
+    class="css-d8lqi0"
+    data-testid="categoryItem-block"
+    href="/categories/583"
+  >
+    <img
+      alt="Υγεία & Ομορφιά"
+      class="css-jd31iv"
+      src="https://abpcdn.pstatic.gr/P/bpimg128/583_SX400Y400/1577836800/health-beauty.webp"
+    />
+    Υγεία & Ομορφιά
+  </a>
+  <a
+    class="css-d8lqi0"
+    data-testid="categoryItem-block"
+    href="/categories/2175"
+  >
+    <img
+      alt="Παιδικά - Βρεφικά"
+      class="css-jd31iv"
+      src="https://abpcdn.pstatic.gr/P/bpimg128/2175_SX400Y400/1577836800/paidika-brefika.webp"
+    />
+    Παιδικά - Βρεφικά
+  </a>
+  <a
+    class="css-d8lqi0"
+    data-testid="categoryItem-block"
+    href="/categories/3058"
+  >
+    <img
+      alt="Αθλητισμός, Hobby"
+      class="css-jd31iv"
+      src="https://abpcdn.pstatic.gr/P/bpimg128/3058_SX400Y400/1577836800/sports-hobbies.webp"
+    />
+    Αθλητισμός, Hobby
+  </a>
+  <a
+    class="css-d8lqi0"
+    data-testid="categoryItem-block"
+    href="/categories/3204"
+  >
+    <img
+      alt="Μηχανοκίνηση"
+      class="css-jd31iv"
+      src="https://abpcdn.pstatic.gr/P/bpimg128/3204_SX400Y400/1577836800/auto-moto.webp"
+    />
+    Μηχανοκίνηση
+  </a>
+  <a
+    class="css-d8lqi0"
+    data-testid="categoryItem-block"
+    href="/categories/6988"
+  >
+    <img
+      alt="Ψυχαγωγία"
+      class="css-jd31iv"
+      src="https://abpcdn.pstatic.gr/P/bpimg128/6988_SX400Y400/1577836800/entertainment.webp"
+    />
+    Ψυχαγωγία
+  </a>
+</DocumentFragment>
+`;

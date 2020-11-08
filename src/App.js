@@ -1,18 +1,24 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { AppProvider } from 'provider';
-import { Header, Footer, Loader, Section } from 'components';
+import { Header, Footer, Section } from 'components';
+import { CategoriesListView } from 'views';
 
 const App = () => {
   return (
     <AppProvider>
       <Router>
         <Header />
+        <Section>
+          <Switch>
+            <Route
+              component={CategoriesListView}
+              exact={true}
+              path="/"
+            />
+          </Switch>
+        </Section>
       </Router>
-      {/* @todo replace with actual component */}
-      <Section>
-        <Loader />
-      </Section>
       <Footer />
     </AppProvider>
   );
