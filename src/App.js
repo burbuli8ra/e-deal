@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Header } from './components';
+import { Header, Footer } from './components';
 
 const App = () => {
   return (
@@ -10,6 +10,7 @@ const App = () => {
       </Router>
       {/* @todo replace with actual component */}
       <div>Main App Content</div>
+      <Footer />
     </>
   );
 }
