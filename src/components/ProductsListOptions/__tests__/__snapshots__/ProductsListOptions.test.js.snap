@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsListOptions component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-1qn0r3y"
+  >
+    <div
+      class="css-0"
+    >
+      <div
+        class="css-1ux9f3u"
+      >
+        Filter by Price (€)
+      </div>
+      <div
+        class="css-112jqer"
+      >
+        <input
+          class="css-1vb9rdv"
+          data-testid="text-input"
+          placeholder="Min €"
+          type="text"
+          value=""
+        />
+        <div
+          class="css-yewzub"
+        >
+          to
+        </div>
+        <input
+          class="css-1vb9rdv"
+          data-testid="text-input"
+          placeholder="Max €"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="css-0"
+    >
+      <div
+        class="css-1ux9f3u"
+      >
+        Order by
+      </div>
+      <div
+        class="css-1skiy8z"
+      >
+        <div
+          class="css-19cy8ai-RadioButton e1xvq25d1"
+        >
+          <div
+            class="css-10vhthi-Bullet e1xvq25d0"
+          />
+          price
+        </div>
+        <div
+          class="css-19cy8ai-RadioButton e1xvq25d1"
+        >
+          <div
+            class="css-10vhthi-Bullet e1xvq25d0"
+          />
+          title
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-0"
+    >
+      <div
+        class="css-1ux9f3u"
+      >
+        Order Type
+      </div>
+      <div
+        class="css-1skiy8z"
+      >
+        <div
+          class="css-19cy8ai-RadioButton e1xvq25d1"
+        >
+          <div
+            class="css-10vhthi-Bullet e1xvq25d0"
+          />
+          asc
+        </div>
+        <div
+          class="css-19cy8ai-RadioButton e1xvq25d1"
+        >
+          <div
+            class="css-10vhthi-Bullet e1xvq25d0"
+          />
+          dec
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

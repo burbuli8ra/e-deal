@@ -2,6 +2,100 @@
 
 exports[`ProductsListView component should match snapshot 1`] = `
 <DocumentFragment>
+  <div
+    class="css-1qn0r3y"
+  >
+    <div
+      class="css-0"
+    >
+      <div
+        class="css-1ux9f3u"
+      >
+        Filter by Price (€)
+      </div>
+      <div
+        class="css-112jqer"
+      >
+        <input
+          class="css-1vb9rdv"
+          data-testid="text-input"
+          placeholder="Min €"
+          type="text"
+          value=""
+        />
+        <div
+          class="css-yewzub"
+        >
+          to
+        </div>
+        <input
+          class="css-1vb9rdv"
+          data-testid="text-input"
+          placeholder="Max €"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="css-0"
+    >
+      <div
+        class="css-1ux9f3u"
+      >
+        Order by
+      </div>
+      <div
+        class="css-1skiy8z"
+      >
+        <div
+          class="css-1ursh8z-RadioButton e1xvq25d1"
+        >
+          <div
+            class="css-10vhthi-Bullet e1xvq25d0"
+          />
+          Price
+        </div>
+        <div
+          class="css-19cy8ai-RadioButton e1xvq25d1"
+        >
+          <div
+            class="css-10vhthi-Bullet e1xvq25d0"
+          />
+          Title
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-0"
+    >
+      <div
+        class="css-1ux9f3u"
+      >
+        Order Type
+      </div>
+      <div
+        class="css-1skiy8z"
+      >
+        <div
+          class="css-1ursh8z-RadioButton e1xvq25d1"
+        >
+          <div
+            class="css-10vhthi-Bullet e1xvq25d0"
+          />
+          Ascending
+        </div>
+        <div
+          class="css-19cy8ai-RadioButton e1xvq25d1"
+        >
+          <div
+            class="css-10vhthi-Bullet e1xvq25d0"
+          />
+          Descending
+        </div>
+      </div>
+    </div>
+  </div>
   <article
     class="css-1je060j"
     data-testid="productItem-block"

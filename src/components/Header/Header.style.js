@@ -7,7 +7,9 @@ const Header = styled.header`
   background-color: ${colors.white};
   box-shadow: 0 0 9px 0 rgba(140, 140, 158, 0.25);
   padding: 20px;
+  position: relative;
   text-align: center;
+  z-index: 1;
 `;
 Header.displayName = 'Header';
 

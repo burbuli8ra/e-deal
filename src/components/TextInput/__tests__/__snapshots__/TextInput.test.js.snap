@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput component should match snapshot 1`] = `
+<DocumentFragment>
+  <input
+    class="css-1vb9rdv"
+    data-testid="text-input"
+    type="text"
+    value=""
+  />
+</DocumentFragment>
+`;

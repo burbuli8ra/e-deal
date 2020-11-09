@@ -3,7 +3,7 @@
 exports[`App Component should match snapshot 1`] = `
 <DocumentFragment>
   <header
-    class="css-3vq7ia"
+    class="css-1ena28t"
     data-testid="header"
   >
     <h1
