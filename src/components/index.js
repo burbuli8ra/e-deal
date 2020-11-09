@@ -6,6 +6,7 @@ export { ProductsListOptions } from './ProductsListOptions';
 export { Footer } from './Footer';
 export { Loader } from './Loader';
 export { Pagination } from './Pagination';
+export { Product } from './Product';
 export { ProductBlock } from './ProductBlock';
 export { ProductsList } from './ProductsList';
 export { RadioButton } from './RadioButton';

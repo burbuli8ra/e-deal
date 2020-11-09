@@ -18,8 +18,8 @@ describe('ProductsListView component', () => {
   let props;
   let wrapper;
 
-  const getCategory = jest.spyOn(fetchRoute, 'category')
-  const getProducts = jest.spyOn(fetchRoute, 'productsList')
+  const getCategory = jest.spyOn(fetchRoute, 'category');
+  const getProducts = jest.spyOn(fetchRoute, 'productsList');
 
   beforeEach(async () => {
     props = {};

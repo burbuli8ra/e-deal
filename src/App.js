@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { AppProvider } from 'provider';
 import { Header, Footer, Section } from 'components';
-import { CategoriesListView, ProductsListView } from 'views';
+import { CategoriesListView, ProductsListView, ProductView } from 'views';
 
 const App = () => {
   return (
@@ -19,6 +19,10 @@ const App = () => {
             <Route
               component={ProductsListView}
               path="/categories/:categoryId"
+            />
+            <Route
+              component={ProductView}
+              path="/products/:productId"
             />
           </Switch>
         </Section>

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-1c7yiq"
+  >
+    <h2
+      class="css-8pegrd"
+    >
+      Viking Apollo F-1
+    </h2>
+    <img
+      alt="Viking Apollo F-1"
+      class="css-1ssd2ae"
+      src="https://abpcdn.pstatic.gr/P/bpimg54/3uyUu/1JkFGD_SX959Y938/0/2155960749.webp"
+    />
+    <div
+      class="css-17agv4d"
+    >
+      470€
+    </div>
+    <div
+      class="css-1rvkpvg"
+    >
+      Features
+    </div>
+    <div
+      class="css-mb3fio"
+    >
+      <b>
+        Viking
+      </b>
+      , Μέγιστο βάρος χρήστη: 120 Kg, Βάρος τροχού: 9 Kg
+    </div>
+    <div
+      class="css-1rvkpvg"
+    >
+      Description
+    </div>
+    <div
+      class="css-mb3fio"
+    >
+      -
+    </div>
+  </div>
+</DocumentFragment>
+`;
