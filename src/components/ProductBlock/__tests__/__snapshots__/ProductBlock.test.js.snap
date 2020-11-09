@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductBlock component should match product block snapshot 1`] = `
+<DocumentFragment>
+  <a
+    class="css-1sj3ugd"
+    data-testid="productItem-block"
+    href="/products/2155431109"
+  >
+    <div
+      class="css-1yv013g"
+    >
+      <img
+        alt="Hobby HSM-1000 White"
+        class="css-y6bwx0"
+        src="https://abpcdn.pstatic.gr/P/bpimg34/2vgIi/1JiA8P_SX910Y902/0/2155431109.webp"
+      />
+    </div>
+    <h3
+      class="css-15l8jez"
+    >
+      Hobby HSM-1000 White
+    </h3>
+    <div
+      class="css-g0fl43"
+    >
+      61.90€
+    </div>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`ProductBlock component should match product ghost image snapshot 1`] = `
+<DocumentFragment>
+  <img
+    alt="Hobby HSM-1000 White"
+    class="css-vh3imo"
+    data-testid="productItem-ghost-image"
+    src="https://abpcdn.pstatic.gr/P/bpimg34/2vgIi/1JiA8P_SX910Y902/0/2155431109.webp"
+  />
+</DocumentFragment>
+`;
