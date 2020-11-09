@@ -16,9 +16,11 @@ const Header = () => {
 
   return (
     <Styled.Header data-testid="header" ref={ref}>
-      <Styled.Logo data-testid="header-logo" to="/">
-        <Styled.Icon data-testid="header-icon" />
-        eDeal
+      <Styled.Logo data-testid="header-logo">
+        <Styled.LogoLink data-testid="header-logo-link" to="/">
+          <Styled.Icon data-testid="header-icon" />
+          eDeal
+        </Styled.LogoLink>
       </Styled.Logo>
     </Styled.Header>
   );

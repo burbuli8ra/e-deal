@@ -6,19 +6,24 @@ exports[`Header component should match snapshot 1`] = `
     class="css-3vq7ia"
     data-testid="header"
   >
-    <a
-      class="css-1rzlx2v"
+    <h1
+      class="css-57sabx"
       data-testid="header-logo"
-      href="/"
     >
-      <svg
-        class="css-xzn57i"
-        data-testid="header-icon"
+      <a
+        class="css-t18r78"
+        data-testid="header-logo-link"
+        href="/"
       >
-        logo.svg
-      </svg>
-      eDeal
-    </a>
+        <svg
+          class="css-xzn57i"
+          data-testid="header-icon"
+        >
+          logo.svg
+        </svg>
+        eDeal
+      </a>
+    </h1>
   </header>
 </DocumentFragment>
 `;

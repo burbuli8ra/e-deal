@@ -42,9 +42,10 @@ const fetchRoute = {
     apiRequest({
       url: `${API}/products/${productId}`
     }),
-  productsList: categoryId =>
+  productsList: (categoryId, searchParams) =>
     apiRequest({
-      url: `${API}/categories/${categoryId}/products`
+      url: `${API}/categories/${categoryId}/products`,
+      searchParams
     })
 };
 

@@ -1,9 +1,15 @@
+const darkPastelBlue = '#2993bb';
+const grey = '#d0d0d0';
 const lightGrey = '#f2f2f2';
-const pastelBlue = '#2993bb';
+const lightPastelBlue = '#96d2e9';
+const pastelBlue = '#56b6da';
 const white = '#fff';
 
 export default {
+  darkPastelBlue,
+  grey,
   lightGrey,
+  lightPastelBlue,
   pastelBlue,
   white
 };

@@ -30,16 +30,18 @@ const ProductBlock = ({
           src={imageUrl}
         />
       ) : (
-        <Styled.ProductBlock data-testid="productItem-block" to={`/products/${id}`}>
-          <Styled.ImageWrap>
-            <Styled.Image
-              alt={title}
-              isVertical={hasVerticalImage}
-              src={imageUrl}
-            />
-          </Styled.ImageWrap>
-          <Styled.Title>{title}</Styled.Title>
-          <Styled.Price>{priceInEuros}€</Styled.Price>
+        <Styled.ProductBlock data-testid="productItem-block">
+          <Styled.ProductBlockLink to={`/products/${id}`}>
+            <Styled.ImageWrap>
+              <Styled.Image
+                alt={title}
+                isVertical={hasVerticalImage}
+                src={imageUrl}
+              />
+            </Styled.ImageWrap>
+            <Styled.Title>{title}</Styled.Title>
+            <Styled.Price>{priceInEuros}€</Styled.Price>
+          </Styled.ProductBlockLink>
         </Styled.ProductBlock>
       )}
     </>

@@ -8,8 +8,10 @@ const CategoryBlock = ({
 }) => {
   return (
     <Styled.CategoryBlock data-testid="categoryItem-block" to={`/categories/${id}`}>
-      <Styled.Image alt={title} src={imageUrl} />
-      {title}
+      <Styled.CategoryBlockLink to={`/categories/${id}`}>
+        <Styled.Image alt={title} src={imageUrl} />
+        {title}
+      </Styled.CategoryBlockLink>
     </Styled.CategoryBlock>
   );
 };

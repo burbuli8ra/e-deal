@@ -2,22 +2,28 @@ import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
 import { colors } from 'theme';
 
-const ProductBlock = styled(Link)`
+const ProductBlock = styled.article`
   align-self: flex-start;
+  flex: 1 0 auto;
+  margin: 10px;
+  max-width: 240px;
+`;
+ProductBlock.displayName = 'ProductBlock';
+
+const ProductBlockLink = styled(Link)`
   background-color: ${colors.white};
   border-radius: 4px;
   box-shadow: 0 0 9px 0 rgba(140, 140, 158, 0.25);
-  color: ${colors.pastelBlue};
+  color: ${colors.darkPastelBlue};
   display: inline-flex;
-  flex: 1 0 auto;
   flex-direction: column;
-  margin: 10px;
-  max-width: 240px;
+  max-width: inherit;
   overflow: hidden;
   padding: 20px;
   text-decoration: none;
+  width: 100%;
 `;
-ProductBlock.displayName = 'ProductBlock';
+ProductBlockLink.displayName = 'ProductBlockLink';
 
 const GhostImage = styled.img`
   overflow: hidden;
@@ -70,6 +76,7 @@ Title.displayName = 'Title';
 
 export default {
   ProductBlock,
+  ProductBlockLink,
   GhostImage,
   Image,
   ImageWrap,

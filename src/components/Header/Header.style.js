@@ -18,18 +18,27 @@ const Icon = styled(Assets.Logo)`
 `;
 Icon.displayName = 'Icon';
 
-const Logo = styled(Link)`
-  align-items: center;
-  color: ${colors.pastelBlue};
-  display: inline-flex;
+const Logo = styled.h1`
   font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
+  margin-bottom: 0;
+  margin-top: 0;
 `;
 Logo.displayName = 'Logo';
+
+const LogoLink = styled(Link)`
+  align-items: center;
+  color: ${colors.darkPastelBlue};
+  display: inline-flex;
+  font-size: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  vertical-align: top;
+`;
+LogoLink.displayName = 'LogoLink';
 
 export default {
   Header,
   Icon,
-  Logo
+  Logo,
+  LogoLink
 }

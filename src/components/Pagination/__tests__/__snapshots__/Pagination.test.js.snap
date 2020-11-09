@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination component should match snapshot 1`] = `
+<DocumentFragment>
+  <ul
+    class="css-1ofi96v"
+    data-testid="pagination"
+  >
+    <li
+      class="css-1559gqj"
+      data-testid="page-prev"
+    >
+      &lt; Prev
+    </li>
+    <li
+      class="css-1voxcuf"
+      data-testid="page-item"
+    >
+      1
+    </li>
+    <li
+      class="css-ln6vel"
+      data-testid="page-item"
+    >
+      2
+    </li>
+    <li
+      class="css-ln6vel"
+      data-testid="page-next"
+    >
+      Next &gt;
+    </li>
+  </ul>
+</DocumentFragment>
+`;

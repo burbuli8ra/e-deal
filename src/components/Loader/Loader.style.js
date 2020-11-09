@@ -12,7 +12,7 @@ const spin = keyframes`
 `;
 
 const Loader = styled.div`
-  color: ${colors.pastelBlue};
+  color: ${colors.darkPastelBlue};
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -23,7 +23,7 @@ const Loader = styled.div`
     content: '';
     border: 4px solid transparent;
     border-radius: 50%;
-    border-top: 4px solid ${colors.pastelBlue};
+    border-top: 4px solid ${colors.darkPastelBlue};
     display: inline-flex;
     height: 24px;
     width: 24px;
